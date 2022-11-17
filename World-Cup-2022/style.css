@@ -1,0 +1,54 @@
+body{
+    font-family: 'Almarai', sans-serif;
+}
+
+.bg-primary{
+    background-color: #811538 !important;
+    color: white;
+
+}
+
+.bg-secondary{
+    background-color: #5b0d25 !important;
+    color: white;
+    text-align: center;
+}
+
+#header-background{
+    background-image: url("images/pattern.png");
+}
+
+#header{
+    clip-path: polygon(0 0, 100% 0, 100% 93%, 0 69%);
+    border-bottom: solid 25px #5b0d25;
+    height: 270px;
+}
+
+#logo{
+    position: absolute;
+    z-index: 999;
+    margin: 40px 0 0 40px;
+    filter: drop-shadow(5px 15px 65px #222);
+}
+
+#text{
+    color: rgb(252, 249, 249);
+    margin-right: 25px;
+}
+
+h1{
+    font-weight: 800;
+    font-size: 60px;
+}
+
+#groups-word{
+    font-weight: 600;
+    font-size: 28px;
+    margin-top: 50px;
+    color: rgb(61, 8, 8);
+}
+
+.list-group{
+    text-align: center;
+}
+
